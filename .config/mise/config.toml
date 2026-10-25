@@ -1,0 +1,16 @@
+[settings.upgrade]
+auto_prune = false
+
+[tools]
+agy = "latest"
+awscli = { version = "latest", symlink_bins = "true" }
+bun = "latest"
+doggo = "latest"
+gemini = { version = "latest", allow_builds = ["@github/keytar", "node-pty"] }
+gh = "latest"
+go = "latest"
+node = "latest"
+pnpm = "latest"
+python = "latest"
+uv = "latest"
+viteplus = "latest"
